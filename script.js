@@ -15,7 +15,7 @@ const digimons = {
         activeAttributes:[],
         soul:{ phase:0, count:0, spirits:0 },
         evolutions: [
-            { name: "Agumon", img: "img/Agumon.png", base: { power: 100, hp: 750, speed: 10 } },
+            { name: "Agumon", img: "img/agumon.png", base: { power: 100, hp: 750, speed: 10 } },
             { name: "Greymon", img: "img/greymon.png", base: { power: 210, hp: 840, speed: 15 } },
             { name: "MetalGreymon", img: "img/metalgreymon.png", base: { power: 320, hp: 2000, speed: 20 } },
             { name: "WarGreymon", img: "img/wargreymon.png", base: { power: 700, hp: 5500, speed: 30 } }
@@ -5796,4 +5796,5 @@ function prevPage(){
         render()
     }
 }
+
 render()
